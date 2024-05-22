@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://cdn.glitch.global/5c9ce978-4a42-47b4-bafc-857eb674a4eb/cbdc9714-8cee-477e-b30f-16ac108fb3b1.jpg?v=1708849089293);
+    background-color: black;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+h1 {
+    color: #BED754;
+    font-family: "Montserrat", cursive;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: #F4EEE0;
+    box-shadow: 4px 4px 4px 4px #686b61;
+}
+img {
+    margin: 10px 10px 10px 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 10px #BED754;
+}
+li {
+    font-family: "Montserrat", cursive;
+    list-style: none;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.price {
+    display: flex;
+    justify-content: end;
+    width: 50px;
+    height: 60px;
+    padding: 1px;
+    border-radius: 70%;
+    background-color: red;
+    margin-left: 200px;
+    margin-top: -90px;
+}
+p {
+    font-family: "Montserrat", cursive;
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+    
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: red;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", cursive;
+}

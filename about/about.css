@@ -1,0 +1,134 @@
+body {
+    background-image: url(https://cdn.glitch.global/5c9ce978-4a42-47b4-bafc-857eb674a4eb/cbdc9714-8cee-477e-b30f-16ac108fb3b1.jpg?v=1708849089293);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+h1 {
+    color: #BED754;
+    font-size: 40px;
+    font-family: "Montserrat", cursive;
+}
+.sylka {
+    padding: 10px;
+
+}
+.food {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.block {
+    display: flex;
+    justify-content: space-around;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+
+}
+h2 {
+    color: white;
+    font-family: "Montserrat", cursive;
+    font-size: 30px;
+    margin-left: 50px;
+}
+p {
+    color: white;
+    font-family: "Montserrat", cursive;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+    margin-left: 700px;
+}
+.meat {
+    margin: -200px 0px 0px 150px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #BED754;
+}
+.one {
+    color: #BED754;
+    font-size: 20px;
+    font-family: "Montserrat", cursive;
+    padding: 10px;
+    
+}
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+}
+button {
+    padding: 15px;
+    background-color: #CD1818;
+    border: none;
+    border-radius: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", cursive;
+}
+@media all and (max-width:800px) {
+
+.soup, .pibim {
+    display: none;
+}      
+h1 {
+    
+    margin: auto;
+    font-size: 20px;
+}
+.top {
+    height: 5vh;
+    
+}
+.contact {
+   margin-top: 50px;
+}
+p {
+    font-size: 15px;
+}
+
+.meat {
+    width: 60px;
+    margin: 10px 40px 0px 40px 
+    
+}
+.container {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+h2 {
+    font-size: 20px;
+}
+.one {
+    font-size: 15px;
+}
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+}
+.btn {
+    margin: auto;
+    
+}
+button {
+    padding: 10px;
+}
+}

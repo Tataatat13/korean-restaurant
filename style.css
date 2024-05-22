@@ -1,0 +1,134 @@
+body {
+    background-image: url(https://cdn.glitch.global/5c9ce978-4a42-47b4-bafc-857eb674a4eb/cbdc9714-8cee-477e-b30f-16ac108fb3b1.jpg?v=1708849089293);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+    
+}
+.header {
+    flex: 1;
+    height: 12vh;
+    margin: 5px;
+}
+.nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    color: #BED754;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #BED754;
+}
+.image {
+    box-shadow: 3px 3px 3px 5px #404346;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+}
+.slogan {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.one {
+    margin:350px 0px 150px 10px ;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 6px #404346;
+    padding: 5px;
+}
+.two {
+    margin: 200px 0px 250px -210px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 6px #404346;
+    padding: 5px;
+}
+.three {
+    margin: 300px 0px 550px -200px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 6px #404346;
+    padding: 5px;
+}
+.mobile {
+    display: none;
+}
+
+h1 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+}
+h3 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+}
+.btn {
+    align-self: center;
+    padding: 20px;
+    background-color: #CD1818;
+    font-size: 20px;
+    border: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 2px 2px 2px 4px #404346;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #BED754;
+    height: 10vh;
+}
+h4 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+@media all and (max-width:800px) {
+    .container {
+    display: none;
+    }
+.mobile {
+    display: flex;
+}
+.block {
+    margin-top: 30px;
+}
+.foto {
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 6px #404346;
+    padding: 5px;
+}
+.text {
+    align-self: center;
+}
+h1 {
+    font-size: 25px;
+    margin-left: 40px;
+}
+h3 {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.order{
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #CD1818;
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 2px 2px 2px 4px #404346;
+}
+}
