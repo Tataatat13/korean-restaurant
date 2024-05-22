@@ -69,3 +69,9 @@ a {
     color: white;
     font-family: "Montserrat", cursive;
 }
+@media all and (max-width: 800px) {
+    .header {
+    margin: auto;
+    margin-top: 10px;
+    }   
+}   
